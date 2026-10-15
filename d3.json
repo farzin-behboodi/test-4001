@@ -1,0 +1,108 @@
+{
+    "students": [
+        {
+            "id": 2001,
+            "name": "ali",
+            "family": "rezaei",
+            "courses": [
+                [
+                    1002,
+                    12
+                ],
+                [
+                    1003,
+                    5
+                ]
+            ]
+        },
+        {
+            "id": 2002,
+            "name": "reza",
+            "family": "alinia",
+            "courses": [
+                [
+                    1002,
+                    8
+                ],
+                [
+                    1003,
+                    6
+                ]
+            ]
+        },
+        {
+            "id": 2003,
+            "name": "ahmad",
+            "family": "hassani",
+            "courses": [
+                [
+                    1003,
+                    0
+                ]
+            ]
+        }
+    ],
+    "teachers": [
+        {
+            "id": 3001,
+            "name": "alireza",
+            "family": "rezapour",
+            "grade": "bsc",
+            "courses": [
+                1001,
+                1003
+            ]
+        },
+        {
+            "id": 3002,
+            "name": "amir",
+            "family": "hassanpour",
+            "grade": "msc",
+            "courses": [
+                1003
+            ]
+        },
+        {
+            "id": 3003,
+            "name": "ahmad",
+            "family": "ahmadi",
+            "grade": "phd",
+            "courses": [
+                1002,
+                1003
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "id": 1001,
+            "name": "java",
+            "units": 4,
+            "score": 17.5
+        },
+        {
+            "id": 1002,
+            "name": "c#",
+            "units": 3,
+            "score": 20
+        },
+        {
+            "id": 1003,
+            "name": "python",
+            "units": 2,
+            "score": 18.5
+        }
+    ],
+    "classrooms": [
+        {
+            "id": 4001,
+            "name": "java_primry",
+            "course": 1001,
+            "teacher": 3002,
+            "students": [
+                2002,
+                2003
+            ]
+        }
+    ]
+}
